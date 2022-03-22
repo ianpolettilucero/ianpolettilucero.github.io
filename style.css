@@ -1,0 +1,57 @@
+body{
+    scroll-behavior: smooth;
+}
+.info {
+    margin-top: 150px;
+    width: 100%;
+    /*background-color: rgb(240, 240, 240);*/
+    height: 800px;
+}
+.info .imagen-info{
+    margin-left: 7%;
+    width: 45%;
+    height: 80%;
+    margin-top: 4%;
+    
+}
+.info .minititusa {
+    position: absolute;
+    left: 57%;
+    margin-top: 100px;
+}
+.info .titulardium {
+    position: absolute;
+    left: 57%;
+    margin-top: 140px;
+}
+.info .textardo {
+    position: absolute;
+    left: 57%;
+    margin-right: 20%;
+    margin-top: 210px;
+    text-align: left;
+    font-size: larger;
+}
+.info .linkardium {
+    position: absolute;
+    left: 57%;
+    margin-top: 400px;
+}
+
+.final {
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+}
+.final #imgfinal {
+    height: 550px;
+    width: 1300px;  
+    object-fit: cover;
+    
+}
+.final p {
+    margin-top: 40px;
+    font-size: larger;
+    margin-left: 15%;
+    margin-right: 15%;
+}
