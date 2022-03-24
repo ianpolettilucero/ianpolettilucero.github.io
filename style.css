@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+
+body {background-color:#f14c4c}
+#aa{
+    opacity: 0;
+    background:#98bf21;
+    height:0px;
+    width:0px;
+}
+#middle{
+    height: 0px;
+    width: 0px;
+}
+#titulo{ 
+    font-family: 'Red Hat Mono', monospace;
+    color:aliceblue;
+}
+#barra_sup{
+    background-color: black;
+    width: 1280px;
+}
+#c1{
+    margin-left: 90px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+#c2{
+    margin-left: 90px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+#c3{
+    margin-left: 90px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    padding: 0%;
+}
+#c4{
+    margin-left: 90px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+#cod1{
+    margin-left: 90px;
+    font-size: 0;
+}
+#cod2{
+    margin-left: 90px;
+    font-size: 0;
+}
+#cod3{
+    margin-left: 90px;
+    font-size: 0;
+}
+#cod4{
+    margin-left: 90px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+#cod5{
+    margin-left: 90px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+#cod6{
+    margin-left: 90px;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}

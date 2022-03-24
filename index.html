@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>picadashe</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <div id="barra_sup"><h1 id="titulo">Ian Poletti Lucero 3°cstc</h1></div>
+        
+        <div id="btn">
+            <img  id="middle" src="faraon.jpg" />
+            <!--<h1 id="ana">joeee</h1>-->
+                <br></br>
+            
+                <BR><br>
+            <button onclick="hola2()">codigos</button>
+                <br></br>
+            <button onclick="hola()">invocar faraon</button>
+        </div>
+        <div id="aa">
+            <br></br>
+                <div id="c1" style="height: 30px; width: 1000px; opacity: 1;">
+                    <button onclick="taller()">Taller de Tecnologías de Soporte Informático</button>
+                </div>
+            <br>
+                <div id="c3">
+                    <button  onclick="prim_taller()">primer trimestre</button>
+                    <button  onclick="sec_taller()">segundo trimestre</button>
+                    <button  value="tercer trimestre">tercer trimestre</button>
+                </div>
+            <br>
+                <div id="c2"style="height: 30px; width: 1000px; opacity: 1;">
+                    <button onclick="lab()">Laboratorio de programación Orientada a objetos</button>
+                </div>
+            <br>
+                <div id="c4">
+                    <button onclick="prim_lab()">primer trimestre</button>
+                    <button onclick="sec_lab()">segundo trimestre</button>  
+                    <button onclick="ter_lab()">tercer trimestre</button>  
+                </div>
+        </div>
+
+        <script>
+            function hola(){
+                /*$(document).ready(function(){
+                       */ $("#middle").animate({
+                            left: '250px',
+                            opacity: '1',
+                            height: '150px',
+                            width: '150px'
+                        });
+                /*});*/
+            }
+            function hola2(){
+                $("#aa").animate({
+                    opacity: '1',
+                    right: '1000px',
+                    height: '100px',
+                    width: '1000px'
+                },500);
+                $("#aa").animate({
+                    opacity: '1',
+                    right: '1000px',
+                    height: '175px',
+                    width: '1000px'
+                },500);
+                $("#c1").animate({
+                    height: '30px',
+                    width: '1000px',
+                    opacity: '1'
+                },1000);
+                $("#c2").animate({
+                    height: '30px',
+                    width: '1000px',
+                    opacity: '1'
+                },1000);
+                
+               /* if (document.getElementById('aa').style.width == '1000px' && document.getElementById('aa').style.height == '100px'){
+                    document.getElementById('aa').setstyle.height = '1000px';
+                }*/
+            }
+            function taller(){
+                $("#c3").animate({
+                    opacity: '1',
+                    height: '30px',
+                    width: '800px'
+                },1000);
+                $("#aa").animate({
+                    opacity: '1',
+                    right: '1000px',
+                    height: '200px',
+                    width: '1000px'
+                },500);
+            }
+            function lab(){
+                $("#c4").animate({
+                    opacity: '1',
+                    height: '50px',
+                    width: '800px'
+                },1000);
+                $("#aa").animate({
+                    opacity: '1',
+                    right: '1000px',
+                    height: '250px',
+                    width: '1000px'
+                },500);
+            }
+            function codigo1trimtaller(codigo){
+                console.log(codigo);
+            }
+            codigo1trimtaller("codigonashe");
+            
+        </script>
+    </body>
+</html>
+
+
+
+<!-- Crear un sitio web que sirva para poder exponer los trabajos realizados en las materias:
+
+    Laboratorio de programación Orientada a objetos
+    Taller de Tecnologías de Soporte Informático.
+
+Se deberá cumplir los siguientes requisitos:
+
+    su nombre, apellido y curso.
+    Cada trabajo realizado deberá estar asociado a la fecha en la que fué pedido y el tema.
+    Con respecto a los archivos del Laboratorio, cada archivo con extensión .java deberá tener asociado un botón que deberá desplegar el código correspondiente al archivo.
+        Para esto último, utilizar el método toggle() de JQuery aa-->
+
