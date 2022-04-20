@@ -26,9 +26,9 @@
                 </div>
             <br>
                 <div id="c3">
-                    <button  onclick="prim_taller()">primer trimestre</button>
-                    <button  onclick="sec_taller()">segundo trimestre</button>
-                    <button  value="tercer trimestre">tercer trimestre</button>
+                    <button  onclick="prim_taller()">primer cuatrimestre</button>
+                    <button  onclick="sec_taller()">segundo cuatrimestre</button>
+                    
                 </div>
             <br>
                 <div id="c2"style="height: 30px; width: 1000px; opacity: 1;">
@@ -36,9 +36,9 @@
                 </div>
             <br>
                 <div id="c4">
-                    <button onclick="prim_lab()">primer trimestre</button>
-                    <button onclick="sec_lab()">segundo trimestre</button>  
-                    <button onclick="ter_lab()">tercer trimestre</button>  
+                    <button onclick="prim_lab()">primer cuatrimestre</button>
+                    <button onclick="sec_lab()">segundo cuatrimestre</button>  
+                    
                 </div>
         </div>
 
@@ -82,11 +82,11 @@
                 }*/
             }
             function taller(){
-                $("#c3").animate({
+                $("#c3").animate({                    
                     opacity: '1',
                     height: '30px',
-                    width: '800px'
-                },1000);
+                    width: '800px'            
+                },500);
                 $("#aa").animate({
                     opacity: '1',
                     right: '1000px',
@@ -111,7 +111,18 @@
                 console.log(codigo);
             }
             codigo1trimtaller("codigonashe");
-            
+            function prim_lab(){
+                location.replace("https://github.com/ianpolettilucero/Javanashe-prim_cuat")
+            }
+            function sec_lab(){
+                location.replace("https://github.com/ianpolettilucero/javanashe-seg_cuat")
+            }
+            function prim_taller(){
+                location.replace("https://github.com/ianpolettilucero/tec_de_sop_inf-prim_cuat")
+            }
+            function sec_taller(){
+                location.replace("https://github.com/ianpolettilucero/tec_de_sop_inf-seg_cuat")
+            }
         </script>
     </body>
 </html>
